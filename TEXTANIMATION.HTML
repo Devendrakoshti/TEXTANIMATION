@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .MAIN {
+            height: 40PX;
+            width: 480PX;
+            /* background-color: cornflowerblue; */
+            margin: 100PX auto;
+            font-size: 30PX;
+            position: relative;
+        }
+        
+        .MAIN .X {
+            height: 40PX;
+            width: 480PX;
+            background-color: #fff;
+            position: absolute;
+            top: 0;
+            left: 0;
+            animation: DEV 6S infinite;
+        }
+        
+        .MAIN .Y {
+            height: 40PX;
+            width: 3PX;
+            background-color: #000;
+            position: absolute;
+            top: 0;
+            left: -3PX;
+            display: block;
+            /* animation: DEV 4S infinite; */
+            animation: HEMU 6S infinite;
+        }
+        
+        @keyframes DEV {
+            0% {
+                left: -3;
+            }
+            100% {
+                left: 100%;
+            }
+        }
+        
+        @keyframes HEMU {
+            0% {
+                left: -3;
+                display: none;
+            }
+            5% {
+                display: block;
+            }
+            10% {
+                display: none;
+            }
+            15% {
+                display: block;
+            }
+            20% {
+                display: none;
+            }
+            25% {
+                display: block;
+            }
+            30% {
+                display: none;
+            }
+            35% {
+                display: block;
+            }
+            40% {
+                display: none;
+            }
+            45% {
+                display: block;
+            }
+            50% {
+                display: none;
+            }
+            55% {
+                display: block;
+            }
+            60% {
+                display: none;
+            }
+            65% {
+                display: block;
+            }
+            70% {
+                display: none;
+            }
+            75% {
+                display: block;
+            }
+            80% {
+                display: none;
+            }
+            85% {
+                display: block;
+            }
+            90% {
+                display: none;
+            }
+            95% {
+                display: block;
+            }
+            100% {
+                left: 100%;
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="MAIN"> MY NAME IS DEVENDRA KOSHTI
+        <div class="Y"></div>
+        <div class="X"></div>
+    </div>
+    <div class="MAIN">MY NAME IS HEMANT GADAGI
+        <div class="Y"></div>
+        <div class="X"></div>
+    </div>
+    <div class="MAIN">MY NAME IS PARTH GANPA
+        <div class="Y"></div>
+        <div class="X"></div>
+    </div>
+</body>
+
+</html>
